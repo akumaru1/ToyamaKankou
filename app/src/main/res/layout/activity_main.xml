@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="428dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/round_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tateyama2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/round_image"
+        android:padding="10dp"
+        android:text="富山へようこそ"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+
+    <!-- 観光地、食事、イベントのアイコン -->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.026">
+
+        <ImageButton
+            android:id="@+id/btnKankouchi"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="40dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/kankouchi"
+            tools:layout_editor_absoluteX="226dp"
+            tools:layout_editor_absoluteY="235dp" />
+
+        <ImageButton
+            android:id="@+id/btnFood"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="40dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/food"
+            tools:layout_editor_absoluteX="166dp"
+            tools:layout_editor_absoluteY="235dp" />
+
+        <ImageButton
+            android:id="@+id/btnEvent"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/event"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="235dp" />
+
+    </LinearLayout>
+
+
+    <!-- 観光地、食事、イベントのtextview -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="観光地"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="食事"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="イベント"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+    </LinearLayout>
+
+
+    <!-- 文化、乗り場、マナーのアイコン -->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.027">
+
+        <ImageButton
+            android:id="@+id/btnBunka"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="40dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/bunka"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <ImageButton
+            android:id="@+id/btnNoriba"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="40dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/noriba"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+        <ImageButton
+            android:id="@+id/btnManner"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/manner"
+            tools:layout_editor_absoluteX="261dp"
+            tools:layout_editor_absoluteY="309dp" />
+
+    </LinearLayout>
+
+
+    <!-- 文化、乗り場、マナーのtextview -->
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="文化"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="乗り場"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="316dp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="マナー"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="316dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/round_image"
+        android:padding="10dp"
+        android:text="おすすめ観光地"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="408dp"
+        android:layout_height="236dp"
+        android:layout_marginBottom="16dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        tools:layout_editor_absoluteX="1dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- 白の四角のため -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="260dp"
+                android:layout_height="220dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="10dp">
+
+                <!-- kansui -->
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="244dp"
+                    android:layout_height="162dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/round_outline"
+                    android:clipToOutline="true"
+                    app:srcCompat="@drawable/kansui" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="180dp"
+                    android:text="環水公園"
+                    android:textColor="@color/black" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <!-- 白の四角のため -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="260dp"
+                android:layout_height="220dp"
+                android:layout_marginEnd="10dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardElevation="10dp">
+
+                <!-- amaharashi -->
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="244dp"
+                    android:layout_height="162dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/round_outline"
+                    android:clipToOutline="true"
+                    app:srcCompat="@drawable/amaharashi" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="180dp"
+                    android:text="雨晴海岸"
+                    android:textColor="@color/black" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
