@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Passive Kitchen",
+    "imageName": "passivekitchen",
+    "description": "Passive Kitchen is a restaurant that offers a wide range of spicy dishes, especially from Southeast Asia. This establishment has received Halal certification from the Japan Islamic Culture Center, ensuring that Muslim guests can enjoy their meals with confidence. Non-Muslim customers can also enjoy an inclusive dining experience with alcohol and vegetarian menu options. \nContact: 0765-32-3009",
+    "kind": "Southeast Asian Cuisine"
+  },
+  {
+    "name": "Kurobe Soba Shop",
+    "imageName": "kurobesoba",
+    "description": "This soba shop in Toyama is known for its cozy atmosphere and delicious two-color soba set, highly regarded locally. The soba, made with 100% buckwheat flour, is a masterpiece of craftsmanship, and the place is almost full even on Sunday afternoons. If you seek the taste of traditional Japanese cuisine in a homely atmosphere, this shop comes highly recommended. \nContact: 0765-57-3553",
+    "kind": "Soba"
+  },
+  {
+    "name": "Chinese Cuisine Shanrin",
+    "imageName": "shanrin",
+    "description": "Located just a 1-minute walk from Toyama's Aonoki Station, Chinese Cuisine Shanrin is renowned as a top-notch Szechuan cuisine restaurant. Known for using luxurious ingredients generously and offering reasonably priced dishes, it is praised for specialties like Mapo noodles and stick dumplings. The restaurant, managed by a chef couple, provides an authentic Szechuan dining experience, including its distinctive ambiance. Shanrin is known to warm up customers on cold days with its acclaimed Mapo noodles and is recognized as one of the top 100 restaurants on Tabelog.",
+    "kind": "Chinese Cuisine"
+  },
+  {
+    "name": "Tateyama Alpen Village",
+    "imageName": "alpenmura",
+    "description": "The food court at Tateyama Alpen Village offers a wide range of menus catering to various age groups, from udon to set meals. Moreover, it offers rich and delicious desserts like vanilla soft-serve ice cream with plenty of eggs. It's an ideal food court for a relaxed break.\nMeal Hours: 11:00 AM - 3:00 PM\nSoft-Serve Ice Cream Hours: 10:00 AM - 4:00 PM\nClosed every Wednesday",
+    "kind": "Noodles and Set Meals"
+  }
+]

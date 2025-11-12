@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Masu Sushi Making Experience",
+    "imageName": "masu",
+    "description": "Location: Minamoto Masunosushi Museum (37-6 Minami-Oicho, Toyama City)\nOpening Hours: 9:00 AM - 5:00 PM\nExperience: Factory and exhibition tour (20 minutes), Handmade sushi experience (60 minutes)\nFee: Admission/tour is free, Experience fee is 1,500 yen per person (Advance reservation required)\nWebsite: http://www.minamoto.co.jp/museum\nIntroduction: Learn about the history and culture of Toyama's famous local cuisine, Masu Sushi, with over 1,500 years of history. At the Minamoto Masunosushi Museum, you can tour the production line and experience making Masu Sushi.\nAccess: Take a bus towards Sasatsu from Toyama Station, get off at Anyo-ji Station, and walk 8 minutes.",
+    "kind": "Masu Sushi"
+  },
+  {
+    "name": "Toyama Craft Kamaboko Making Experience",
+    "imageName": "kamaboko",
+    "description": "Location: U-mei Museum (482-8 Mizuhashi Unosaki, Toyama City)\nOpening Hours: 10:00 AM - 4:00 PM\nExperience: Craft kamaboko making\nFee: Free for observation (Craft kamaboko production, video, and exhibits), Craft kamaboko making: 1,980 yen per person (Saturdays only, reservation required via web), Parent-child pair ticket (1 adult + 1 child): 2,970 yen\nWebsite: https://www.umekama.co.jp/\nIntroduction: U-mei Museum showcases the history and traditional techniques of kamaboko (fish cake). You can observe traditional craftsperson's techniques through glass and see the vacuum packaging process. Reservation allows you to experience crafting your original kamaboko in the shape of a sea bream.\nAccess: Take bus 71 or 72 from Toyama Station, get off at Chu-Shinmachi Danchi, and walk 15 minutes.",
+    "kind": "Kamaboko"
+  },
+  {
+    "name": "Gokayama Washi Paper Making Experience",
+    "imageName": "washi",
+    "description": "Location: Gokayama Washi Paper Experience Center (148 Shimo-Nagori, Nanto City, Toyama)\nOpening Hours: 8:15 AM - 5:00 PM (Closed: Sundays and holidays from December to April, Tuesdays from May to November)\nExperience: Washi paper making\nFee: Free for observation, Experience fee is 700 yen\nWebsite: http://www1.tst.ne.jp/gokawasi/\nIntroduction: Located in the UNESCO World Heritage Gokayama Gassho-style village, this Washi paper making experience center allows you to freely observe the paper-making process. You can also hear explanations about the facility and the production process, and if you wish, participate in the actual Washi paper making.\nAccess: Take the JR Johana Line to Johana Station, transfer to the Kaetsunoh Bus bound for Gokayama, and get off at Shimonagori.",
+    "kind": "Washi"
+  },
+  {
+    "name": "Toyama Glass Studio",
+    "imageName": "garasu",
+    "description": "Location: Toyama City Glass Craft Center (152 Furusawa, Toyama City)\nOpening Hours: 9:00 AM - 5:00 PM (Closed: December 28 to January 4)\nExperience: Glass blowing experience\nFee: Free for observation (workshop and shop), Glass artwork creation starts from 1,500 yen (Reservation recommended, phone reservation)\nWebsite: https://www.toyama-garasukobo.jp/\nIntroduction: Toyama Glass Studio is a hub for glass artists in the Glass City Toyama. You can observe artists' creative activities in the studio and explore original glass artworks from local and national artists in the shop gallery. Additionally, you can enjoy hands-on experiences such as glass blowing and paperweight making under the guidance of staff.\nAccess: Take Toyama Chiho Railway Bus Takaoka Daisanguchi for 20 minutes from JR Toyama Station, get off at Family Park Mae, and walk 5 minutes.",
+    "kind": "Glass"
+  },
+  {
+    "name": "Sushi Nigiri Making Experience",
+    "imageName": "osushi",
+    "description": "Location: Shinminato Sushi Juku (1555-4 Kitano, Imizu City, Toyama, inside Family Shokudo Sakanaya)\nOpening Hours: 10:00 AM - 5:00 PM\nExperience: Sushi nigiri making\nFee: Starting from 2,800 yen per person (Shinminato Sushi Juku operates on a strictly reservation-only basis. Please reserve your desired number of participants, course, and time (10:00 AM - 5:00 PM) at least 7 days in advance.)\nWebsite: https://sushiacademy.toyama.jp/\nIntroduction: Experience the thrill of making your own sushi. The key to deliciousness lies in the quality of the ingredients, the vinegared rice (shari), and the freshness of the hand-pressed sushi. Shinminato Sushi Juku provides locally sourced fresh fish from Shinminato. Enjoy the taste of the sushi you've made yourself.\nAccess: 5 minutes walk from Ainokaze Toyama Railway Etchu-Omon Station.",
+    "kind": "Sushi"
+  }
+]

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_sub"
+    tools:context=".Jp.DenshaJp">
+
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="電車でのマナー"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/text_jp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="電車は所定の位置で待つ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_jp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="電話の通話はNG"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp1" />
+
+    <TextView
+        android:id="@+id/text_jp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="車内ではリュックなどは\n自分の体の前にかかえましょう。"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp5" />
+
+    <TextView
+        android:id="@+id/text_jp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="車内では会話は控えめに、\n飲食は周りの人への配慮を心がけましょう。"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp3" />
+
+    <TextView
+        android:id="@+id/text_jp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="電車を待つときは整列乗車を心がけましょう"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp2" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="91dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/hato" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="駆け込み乗車は×"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp4"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="180dp"
+        android:layout_height="179dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/_652_color" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

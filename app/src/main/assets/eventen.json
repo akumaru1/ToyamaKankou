@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Tateyama Kurobe Snow Corridor Festival",
+    "imageName": "kurobeyuki",
+    "description": "Period: Mid-April to the end of June\nLocation: Tateyama, Nakaniikawa District, Toyama Prefecture\nThe Tateyama Kurobe Alpine Route, a world-famous mountain tourism route piercing through the 3,000m-class peaks of the Northern Alps. In spring, the renowned 'Snow Corridor' is a highlight. The 'Snow Corridor,' a passage cleared of snow connecting the Murodo Terminal rooftop and the Tateyama Nature Conservation Center, reaches a height exceeding 8 meters around April, offering a powerful experience rivaling the Snow Wall.\nFeel the grandeur of nature! Access: Approximately 7 minutes by Tateyama Cable Car from Tateyama Station on the Toyama Chiho Railway to Bijodaira, followed by about 50 minutes by Tateyama Kogen Bus from Bijodaira to Murodo.",
+    "kind": "Kurobe"
+  },
+  {
+    "name": "Firefly Squid Sea Tour",
+    "imageName": "hotaru",
+    "description": "Period: March to May\nLocation: Namerikawa, Toyama Prefecture\nExperience a sea tour to observe the spring spectacle of 'Firefly Squid Fishing' in Toyama Bay. The Firefly Squid fishing season lasts for a few months each year. Depart before dawn to witness the mystical light of the Firefly Squid and the fishing activities of local fishermen. It's a precious moment to experience.\nAccess: Approximately 8 minutes on foot from Namerikawa Station on the Ainokaze Toyama Railway or Toyama Chiho Railway. Note: ★ Reservation required. ● January 17th to February 7th, 2024 - Booking with accommodation (Please apply to accommodation or travel agencies) ● February 15th to May 3rd, 2024 - Ticket-only (Web reservations)",
+    "kind": "Firefly Squid"
+  },
+  {
+    "name": "Asahi Funakawa 'Spring Quartet' / Funakawa Riverside Cherry Blossom Avenue",
+    "imageName": "asahi",
+    "description": "Period: Early April\nLocation: Asahi Town, Toyama Prefecture\nEnjoy the spring scenery of beautiful cherry blossoms, tulips, and rapeseed flowers along the Funakawa riverside, with the majestic Northern Alps covered in lingering snow as the backdrop. Every year during the cherry blossom season, around 280 Somei Yoshino cherry trees, carefully nurtured by locals, bloom along a 1,200-meter stretch on both banks of the Funakawa, creating a cherry blossom tunnel to stroll through.\nDuring the full bloom, there are illuminations and limited-time bonfires, creating a magical and enchanting atmosphere for nighttime cherry blossom viewing. Access: Free shuttle bus from Tomari Station on the Ainokaze Toyama Railway to the venue of 'Spring Quartet.' Note: Free shuttle buses may be small on weekends and jumbo taxis on weekdays (subject to change depending on the fiscal year).",
+    "kind": "Cherry Blossom"
+  },
+  {
+    "name": "Etchu Owara Wind Festival",
+    "imageName": "kaze",
+    "description": "Period: Every year from September 1st to September 3rd\nLocation: Yatsuo Town, Toyama City\nWith a history of over 300 years, the Etchu Owara Wind Festival takes place annually from September 1st to 3rd. Each night, one of the 11 districts hosts a 'Machinagashi' procession and traditional dances, allowing even tourists to join in the dance.\nThe festival features melancholic songs and dances to the accompaniment of shamisen, kokyu, and taiko drums as participants, clad in matching happi coats or yukatas, parade through the hilly streets adorned with thousands of lanterns. It's a very atmospheric and fantastical festival.",
+    "kind": "Wind Festival"
+  },
+  {
+    "name": "Tonami Tulip Fair",
+    "imageName": "tonami",
+    "description": "Period: Late April to early May\nLocation: Tonami City, Toyama Prefecture\nTonami City is famous for tulip bulb cultivation. Every spring, the 'Tonami Tulip Fair' is held, showcasing around 3 million tulips in full bloom. The symbol of Tonami Tulip Park is the 'Tulip Tower,' a tower adorned with tulips in red, white, and yellow – representing locally developed varieties: 'Toyama Red,' 'White Cloud,' and 'Yellow Komachi.'\nAccess: Approximately 15 minutes on foot from Tonami Station on the Ainokaze Toyama Railway after getting off at JR Johana Line 'Tonami Station.'",
+    "kind": "Tulip"
+  },
+  {
+    "name": "Takaoka Goshayama Festival",
+    "imageName": "takaoka1",
+    "description": "Period: Every year on May 1st\nLocation: Takaoka City, Toyama Prefecture\nThe Takaoka Goshayama Festival is the spring festival of Takaoka Sekino Shrine, held annually on May 1st. It holds both the designation of Important Intangible Folk Cultural Property and Important Tangible Folk Cultural Property in Japan, making it one of the UNESCO Intangible Cultural Heritage-listed 'Events of Goshayama at the Takaoka Festival.' From the early morning, seven beautifully decorated Goshayama floats undergo purification rituals, parade through each district, and then gather together. Supported by the spirit and financial resources of Takaoka residents, these floats are adorned with exquisite craftsmanship representing Takaoka's outstanding artistic techniques in metalworking, lacquerware, dyeing, and weaving.\nAccess: Approximately 10 minutes on foot from Ainokaze Toyama Railway Takaoka Station.",
+    "kind": "Takaoka"
+  }
+]

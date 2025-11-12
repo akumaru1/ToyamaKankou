@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Kansui Water Canal Ring Park",
+    "imageName": "kansuikoen",
+    "description": "A beautiful waterside space in the heart of the city. The park, rich with water and greenery, offers many charming spots. The iconic Tenmon Bridge, spanning the canal, has observation towers at both ends, providing panoramic views of the entire Kansui Park and the majestic Tateyama mountain range. Enjoy the park's walking paths around the canal, the bird sanctuary known as Bird Sanctuary, and the popular cruise on the Kansui Water Line that offers views of the surrounding landscapes. The park's illumination at night is also a highlight, transforming into a romantic atmosphere with seasonal light-ups, including cherry blossoms in spring, the sea of Toyama in summer, autumn foliage, and a mystical aurora in winter.",
+    "kind": "Park"
+  },
+  {
+    "name": "Toyama Castle Park",
+    "imageName": "toyamajou",
+    "description": "A lush green park located in the center of Toyama. The vast 7.06-hectare site has been developed as Toyama Castle ruins, serving as a cherished oasis in the city. The park offers various facilities, with the main symbol being Toyama Castle, featuring impressive stone walls. The castle interior houses the 'Toyama City Folk Museum,' allowing visitors to learn about the history of Toyama Castle spanning over 400 years. Other attractions include the 'Sato Memorial Art Museum,' showcasing Eastern antique art, a Japanese garden reflecting the four seasons, and the Matsukawa Tea House. The wide grassy plaza is perfect for picnics, playgrounds with swings for children, and attractions like pleasure boats. In spring, cherry blossoms in full bloom create a beautiful contrast with the splendid stone walls of the castle and its surroundings.",
+    "kind": "Castle"
+  },
+  {
+    "name": "Toyama City Glass Art Museum",
+    "imageName": "garasubijutsukan",
+    "description": "\"Glass City Toyama.\" Toyama City is renowned as one of the world's leading glass cities, with institutions like the Toyama Glass Art Institute nurturing glass artists and the Toyama Glass Studio supporting artists' creative activities. The Toyama City Glass Art Museum, a symbolic museum of glass art in Toyama, is located within the TOYAMA Kirari complex, designed by the world-famous architect Kengo Kuma. The museum also features a charming Japanese cafe. With a variety of menu items using wheat gluten and a library where visitors can enjoy borrowed books, it provides a calm and relaxing space to unwind after exploring the museum.",
+    "kind": "Art Museum"
+  },
+  {
+    "name": "Toyama City Family Park",
+    "imageName": "familypark",
+    "description": "Nestled in the hills of the Kureha Range, Family Park is a green and vibrant zoo. Exploring the various animal sections feels like a mini-hike, and you may spot wild musasabi if you're lucky. The park offers a range of activities, including feeding time and horse riding experiences. Facilities such as cafeterias, shops, BBQ areas, and boat rides are also available within the park, making it an enjoyable destination for families.",
+    "kind": "Family Park"
+  },
+  {
+    "name": "Kureha-yama Observatory",
+    "imageName": "kureha",
+    "description": "The observatory offers breathtaking views, with the Tateyama mountain range to the east and the distant Noto Peninsula across Toyama Bay to the north. Known as a cherry blossom spot, the area also features the Folk Craft Village and the Gohyakurakan statues, providing enjoyment for various interests and ages. On clear days, you can fully appreciate the expansive scenery of the Tateyama range. Additionally, it is a popular spot for night views, offering a spectacular panorama, and in spring, it is renowned for cherry blossoms.",
+    "kind": "Observatory"
+  }
+]

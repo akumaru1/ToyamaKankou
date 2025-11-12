@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Toyama Travel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="himi_eg">Himi,Tonami</string>
+    <string name="kurobe_eg">Kurobe,Tateyama</string>
+    <string name="toyama_en">Toyama city</string>
+    <string name="bt_himi_en">Himi,Tonami area</string>
+    <string name="bt_toyama_en">Toyama city area</string>
+    <string name="bt_kurobe_en">Kurobe,Tateyama area</string>
+    <string name="click_the_button_below">Click the button below</string>
+    <string name="himi_china">冰见,砺波地区</string>
+    <string name="kurobe_china">黑部,立山地区</string>
+    <string name="toyama_china">富山市内地区</string>
+    <string name="click_china">点击下面的按钮</string>
+    <string name="bt_himi_china">冰见,砺波地区</string>
+    <string name="bt_toyama_china">富山市地区</string>
+    <string name="bt_kurobe_kurobe">黑部,立山地区</string>
+    <string name="himi_jp">氷見・砺波方面</string>
+    <string name="kurobe_jp">黒部・立山方面</string>
+    <string name="toyama_jp">富山市方面</string>
+    <string name="click_jp">下のボタンをクリック</string>
+    <string name="bt_himi_jp">氷見・砺波方面</string>
+    <string name="bt_toyama_jp">富山市内方面</string>
+    <string name="bt_kurobe_jp">黒部・立山方面</string>
+</resources>

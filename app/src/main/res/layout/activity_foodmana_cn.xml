@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_sub"
+    tools:context=".Cn.FoodmanaCn">
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="用餐礼仪"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/text_jp1"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="在日本，我们会在用餐前和用餐后双手合十，表示对制作食物和食材的感激之情，并向食物鞠躬致意。\n用餐前说的是“いただきます”（Itadakimasu），用餐后说的是“ごちそうさま”（Gochisousama）。"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_jp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="端着碗吃饭"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp1" />
+
+    <TextView
+        android:id="@+id/text_jp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="除了擦手，不要随意使用湿巾"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp5" />
+
+    <TextView
+        android:id="@+id/text_jp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="避免发出咀嚼声，尽量闭嘴吃东西，以保持好印象。"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp3" />
+
+    <TextView
+        android:id="@+id/text_jp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用餐时不要把手肘放在桌子上"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="91dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/hato" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="放置餐具时不要发出声音×"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp4"
+        tools:layout_editor_absoluteX="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/food1" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="110dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:srcCompat="@drawable/food2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

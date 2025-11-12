@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Amaharashi Coast",
+    "imageName": "amaharashi",
+    "description": "The view from Amaharashi Coast, with the iconic 'Onna Iwa' rock and the Tateyama mountain range across the sea, is truly a breathtaking sight. The scenery of towering mountains over 3,000 meters high, separated by the sea, is a rare and stunning view that is not easily found elsewhere in the world. The rocky reefs visible from the beach and the majestic sight of the Tateyama mountain range across Toyama Bay are exceptional, offering a breathtaking beauty. Selected as 'Japan's Top 100 Beaches,' 'Top 100 White Sands and Blue Pines,' and 'Japan's Top 88 Seaside Bathing Spots,' the coast is also a popular beach destination with shallow waters during the summer.",
+    "kind": "Coast"
+  },
+  {
+    "name": "Kaiwo Maru Park",
+    "imageName": "kaiwomarupark",
+    "description": "The sailing ship Kaiwo Maru was originally built as a training ship for a maritime school. Launched on February 14, 5th year of Showa era, it sailed for over 59 years, covering a distance of 1.06 million nautical miles (approximately 50 laps around the Earth) and nurturing 11,190 young sailors. Kaiwo Maru Park proudly displays this sailing ship as a symbol, maintaining its appearance from its active days. The park hosts a full sail deployment, showcasing all 29 sails, ten times a year. Inside Kaiwo Maru Park, you'll find the Japan Sea Exchange Center displaying models of sailing ships from around the world, along with large play areas for families. Recognized as a 'Lover's Sanctuary' in January 2013, the illuminated Kaiwo Maru at night creates a truly enchanting atmosphere.",
+    "kind": "Park"
+  },
+  {
+    "name": "Takaoka Great Buddha",
+    "imageName": "takaokadaibutsu",
+    "description": "The bronze statue of Amida Nyorai, known as the Takaoka Great Buddha, stands at a height of 16 meters in Daibutsu-ji Temple in Takaoka City. Created over 26 years, gathering the finest local bronze craftsmanship, it was completed in 1907. Alongside Kosugi Daibutsu and Shogawa Daibutsu, it is one of the three Great Buddhas of Etchu. The origin dates back approximately 800 years when Minamoto no Yoshitsugu, who sought refuge in Etchu to avoid the Jokyu War, built a wooden Great Buddha. Despite facing several crises, including decay and fire, it has been reconstructed through the prayers of the people and stands in its present form.",
+    "kind": "Great Buddha"
+  },
+  {
+    "name": "Takaoka Fantasy Forest Park",
+    "imageName": "takaoka",
+    "description": "The Takaoka Fantasy Forest Park, with its vast greenery, flowers, and the flowing Chibo River, is an all-encompassing park for both children and adults. Covering approximately 11 hectares, the park features expansive grassy areas, beautiful seasonal flowers, and various experiential facilities. The Melhen Bridge with a viewpoint over the Chibo River and the wooden Forest Bridge add to the magical atmosphere. In June, fireflies dance over the Chibo River near the Forest Bridge, creating a fantastical ambiance. From the observation deck, you can enjoy a panoramic view of the green-filled park, and on clear days, the beautiful Tateyama mountain range in the distance. The Doraemon Open Space is a popular spot, featuring characters from the works of Fujiko F. Fujio, who was born in Takaoka.",
+    "kind": "Park"
+  },
+  {
+    "name": "Shogawa Onsen Area",
+    "imageName": "shogawaonsen",
+    "description": "The Shogawa Onsen Area, with its leisurely flowing hot springs along the pure Shogawa River, offers a serene escape from everyday life. Known as a hot spring resort since ancient times, soaking in the baths while gazing at the clear stream helps relieve daily fatigue. The area provides the beauty of nature in every season, such as fresh greenery, autumn leaves, and snowy landscapes. You can also enjoy the richness of the surrounding area, encompassing the sea, river, and mountains. Nearby, the 'Urigareshimeta Mizu' (selected in the Ministry of the Environment's National Clear Water Selection) springs, known for its coldness, is reputed to enhance the taste of dishes when used in cooking.",
+    "kind": "Hot Spring Resort"
+  },
+  {
+    "name": "Gokayama Gassho-style Village",
+    "imageName": "gokayama",
+    "description": "Find solace in the nostalgic and beautiful original scenery of Japan at the UNESCO World Heritage Site, the 'Gokayama Gassho-style Village.' This historic village in Gokayama preserves the landscape of Gassho-style thatched-roof houses, dating back approximately 100 to 350 years. The 'Gassho-style' houses, with their steep thatched roofs, are a very precious form of traditional Japanese architecture found only in this region. Gokayama Gassho-style Village boasts 20 Gassho-style houses, including the original primitive Gassho-style, offering a variety of sizes and styles. The village is still inhabited, maintaining the traditional way of life. Within the village, you'll find facilities like the Gokayama Folk Museum, Gokayama Traditional Industry Museum, and Washi (Japanese paper) Making Experience Center, allowing you to explore the village's lifestyle, the history of paper production, and even try making washi yourself.",
+    "kind": "Village"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Asahi Funagawa 'Spring Quartet'",
+    "imageName": "asahi",
+    "description": "A spring tradition in Asahi Town, where you can enjoy a beautiful quartet featuring cherry blossoms along the Funagawa riverside with the backdrop of the snow-covered majestic Northern Alps. The flowers announcing the arrival of spring captivate visitors with their cute and beautiful colors. During cherry blossom season, 280 Somei Yoshino cherry trees, carefully cultivated by locals, bloom along both banks of the Funagawa for 1,200 meters, creating a tunnel of cherry blossoms. Illuminations and limited-time bonfires during full bloom create a fantastic and enchanting atmosphere for evening strolls.",
+    "kind": "Tulip"
+  },
+  {
+    "name": "Higashiyama Cylinder Water Distributor",
+    "imageName": "higashiyama",
+    "description": "The Higashiyama Cylinder Water Distributor is designed to fairly distribute water to three irrigation canals: Tenjinnoyosui, Aoyagisuisui, and Higashiyamasuisui in the Higashiyama area. Renowned for its beauty, it has become a popular tourist and power spot. In December of Reiwa 2 (2020), a pocket park was developed by the city of Uozu, offering a picturesque view of the water distributor and its surroundings. The cylinder's unique structure, with water cascading from it, is a rare sight, attributed to the characteristics of a swift-flowing river. It is often referred to as the most beautiful cylinder water distributor in Japan on the internet. The cylinder has a diameter of 9.12 meters, and the water distribution to each canal is determined by the length of the cylinder's circumference (central angle). The advantage of the cylinder water distributor is its ability to distribute water fairly, unaffected by changes in water volume from upstream sources.",
+    "kind": ""
+  },
+  {
+    "name": "Kurobe Dam",
+    "imageName": "kurobedam",
+    "description": "Known as the 'Project of the Century' due to its massive scale and unimaginable challenges, the Kurobe Dam stands as one of Japan's largest dams, set amidst the majestic nature of Kurobe. With a height of 186 meters, it was completed after seven years of strenuous efforts, costing a total of 51.3 billion yen and involving the labor of 10 million people. One of the highlights is the tourist water discharge, where water forcefully jets out from the highest point in Japan, creating a breathtaking spectacle. The Rainbow Terrace, observation decks, and the Kurobe Lake sightseeing boat 'Garve' provide excellent vantage points to enjoy the panoramic views of the Northern Alps and the emerald-green Kurobe Lake.",
+    "kind": "Dam"
+  },
+  {
+    "name": "Tateyama Kurobe Alpine Route",
+    "imageName": "kurobealphine",
+    "description": "The Tateyama Kurobe Alpine Route traverses the Northern Alps, featuring peaks over 3,000 meters high, making it one of the world's premier mountain sightseeing routes. Starting from Tateyama Station in Toyama Prefecture and ending at Omachi in Nagano Prefecture, visitors can easily cross through cable cars, ropeways, and trolley buses to experience the majestic nature and a world above the clouds at various scenic spots.",
+    "kind": "Alpine Route"
+  },
+  {
+    "name": "Kurobe Gorge",
+    "imageName": "kurobegeorge",
+    "description": "Situated within the Chubu Sangaku National Park, Kurobe Gorge is one of Japan's foremost V-shaped large canyons, formed over a long period by the erosion and shaping actions of the Kurobe River with the rise of the Northern Alps. The canyon's cliffs and the rushing blue waters below, reflecting the greenery and autumn foliage on both sides, create a magnificent and globally acclaimed landscape. Designated as a Special Place of Scenic Beauty and a Special Natural Monument in 1964, the canyon is a testament to Japan's natural beauty.",
+    "kind": "Gorge"
+  },
+  {
+    "name": "Snow Wall",
+    "imageName": "yukikabe",
+    "description": "As part of the world-famous Tateyama Kurobe Alpine Route, the 'Snow Wall' is a spring event that takes place on the snowy roads near Murodo Terminal, where GPS is used to determine the road's position and gradual snow removal creates a path. The resulting 'Snow Wall' section, also known as 'Yuki no Otani,' can reach a height of over 20 meters. The 'Snow Wall Walk' allows pedestrians to stroll along one side of the road, offering a close-up view of the awe-inspiring snow walls. The higher and whiter walls are best encountered shortly after the route opens in April.",
+    "kind": "Snow Wall"
+  },
+  {
+    "name": "Midagahara",
+    "imageName": "midagahara",
+    "description": "Midagahara, formed by the volcanic activity of Mt. Tateyama, is a vast plateau stretching 4 km east to west and 2 km north to south along the Tateyama Kurobe Alpine Route. Registered as a Ramsar Convention site, it boasts around 3,000 small ponds called 'chitou.' In Tateyama faith, these ponds are said to be rice fields created by souls that fell into the Gakido Hell of Tateyama to alleviate their hunger, hence named 'Gaki Ta' (Hungry Rice Fields). During the snowy season in June, snowshoe trekking is popular, while July sees the bloom of alpine plants like Gentiana triflora. In late September to mid-October, the wetland vegetation turns vibrant hues, and you can enjoy breathtaking views of the nearly snow-covered Mt. Dainichi.",
+    "kind": ""
+  },
+  {
+    "name": "Shomyo Falls",
+    "imageName": "shomyodaki",
+    "description": "Shomyo Falls, hidden deep in Toyama Prefecture, boasts the highest waterfall drop in Japan at 350 meters! The dynamic flow of water, creating sprays as it cascades down, is truly awe-inspiring. Designated as a national scenic spot, a natural monument, part of Japan's Top 100 Waterfalls, and Japan's Top 100 Soundscapes, the falls offer a different atmosphere with each season. In spring, snowmelt water flows into the snow-covered valley, and the 'Hanno-ki Falls' appears to the right of Shomyo Falls, creating a unique double waterfall. In autumn, the gorge is adorned with red and yellow foliage, harmonizing with the white cascade to create a fantastic and enchanting space.",
+    "kind": "Waterfall"
+  }
+]

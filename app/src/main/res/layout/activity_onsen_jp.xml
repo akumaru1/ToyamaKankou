@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_sub"
+    tools:context=".Jp.OnsenJp">
+
+    <TextView
+        android:id="@+id/text_jp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="お風呂に入るときは\nフェイスタオルを持って入りましょう"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="208dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_jp2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="お風呂場に入ったら\nかけ湯もしくはシャワーで体を流しましょう"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp1" />
+
+    <TextView
+        android:id="@+id/text_jp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="髪の毛が温泉に入らないように\n髪の毛を結びましょう"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp5" />
+
+    <TextView
+        android:id="@+id/text_jp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="タオルを温泉に入れてはいけません"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp3" />
+
+    <TextView
+        android:id="@+id/text_jp5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="お風呂場を出る時は\n小さいタオルで拭いてから出ましょう"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_jp2" />
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="温泉でのマナー"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="8"
+        android:inputType="text"
+        android:text="温泉に入る時の注意"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/text_jp1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText1"
+        tools:ignore="LabelFor,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="221dp"
+        android:layout_height="125dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/onsengazou" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="91dp"
+        android:layout_height="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.643"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04"
+        app:srcCompat="@drawable/hato" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

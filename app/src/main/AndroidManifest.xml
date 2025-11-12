@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TravelApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Cn.FoodmanaCn"
+            android:exported="false" />
+        <activity
+            android:name=".En.FoodmanaEn"
+            android:exported="false" />
+        <activity
+            android:name=".Cn.DenshaCn"
+            android:exported="false" />
+        <activity
+            android:name=".En.DenshaEn"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.FoodmanaJp"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.DenshaJp"
+            android:exported="false" />
+        <activity
+            android:name=".Cn.BunkaCn"
+            android:exported="false" />
+        <activity
+            android:name=".En.BunkaEn"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.BunkaJp"
+            android:exported="false" />
+        <activity
+            android:name=".Cn.EventCn"
+            android:exported="false" />
+        <activity
+            android:name=".En.EventEn"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.EventJp"
+            android:exported="false" />
+        <activity
+            android:name=".Cn.OnsenCn"
+            android:exported="false" />
+        <activity
+            android:name=".Cn.MannerCn"
+            android:exported="false" />
+        <activity
+            android:name=".En.OnsenEn"
+            android:exported="false" />
+        <activity
+            android:name=".En.MannerEn"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.OnsenJp"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.MannerJp"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.MainActivityJp"
+            android:exported="false" />
+        <activity
+            android:name=".En.MainActivityEn"
+            android:exported="false" />
+        <activity
+            android:name=".Cn.MainActivityCn"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.ChooseKankouchiJp"
+            android:exported="false" />
+        <activity
+            android:name=".En.ChooseKankouchiEn"
+            android:exported="false" />
+        <activity
+            android:name=".Cn.ChooseKankouchiCn"
+            android:exported="false" />
+        <activity
+            android:name=".Jp.ChooseShokujiJp"
+            android:exported="false" />
+        <activity
+            android:name=".En.ChooseShokujiEn"
+            android:exported="false" />
+        <activity
+            android:name=".Cn.ChooseShokujiCn"
+            android:exported="false" />
+        <activity
+            android:name=".Shokuji"
+            android:exported="false" />
+        <activity
+            android:name=".Kankouchi"
+            android:exported="false" />
+        <activity
+            android:name=".Language"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

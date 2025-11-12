@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Italian Kitchen Olive",
+    "imageName": "olive",
+    "description": "Italian Kitchen Olive is a restaurant that uses fresh and delicious natural vegetables harvested in Himi. Vegetables cultivated without the use of fertilizers and pesticides, taking time to grow, are rich in their original flavors. From appetizers to main courses and desserts, a variety of seasonal natural vegetables are incorporated. Through direct transactions with local contract farmers and collaboration in the field, we provide safe and delicious ingredients. Enjoy dishes made with fresh local ingredients every day and feel the seasons.",
+    "kind": "Pasta and Himi Beef"
+  },
+  {
+    "name": "Udon Tea House Kaizuya",
+    "imageName": "kaizuya",
+    "description": "Kaizuya, which revives the traditional techniques of 'hand-stretching' and 'hand-kneading' in the present, skillfully combines kneaded noodle dough pulled by hand and the technique of 'hand-kneading.' Kaizuya's udon, which inherits traditional techniques and incorporates original ideas, delivers a special deliciousness to modern dining tables. Adjusted by the intuition and experience of artisans, the water-salt ratio and the skilled footwork produce Himi udon with a unique stickiness and flavor. The characteristic bubbles created by hand-stretching and craftsmanship enhance the charm of Himi udon.",
+    "kind": "Himi Udon"
+  },
+  {
+    "name": "KASHMIR",
+    "imageName": "kashmir",
+    "description": "This Pakistani-owned restaurant in Imizu City offers both Indian and Pakistani cuisine. The restaurant not only focuses on deliciousness but also provides Halal food. Traditional Pakistani dishes and Indian curry can be enjoyed in exquisite balance, earning high praise from locals and tourists alike. Relax in the cozy atmosphere and savor authentic and fresh flavors. Definitely worth a visit.",
+    "kind": "Indian Cuisine"
+  },
+  {
+    "name": "Chicken Dish Hakkoriya",
+    "imageName": "hakkoriya",
+    "description": "Located in Mitsui Outlet Hokuriku Oyabe Store, this restaurant offers delicious dishes based on chicken, including parent-child bowls, chicken-based set meals, and chicken cutlet bowls. The menu, using fresh and juicy chicken, is diverse, providing a relaxing dining experience amidst outlet shopping. Visit and savor the charm of chicken dishes. For inquiries: 0766-78-3150",
+    "kind": "Chicken Cuisine"
+  },
+  {
+    "name": "Takaoka Public Izakaya",
+    "imageName": "takaokataishu",
+    "description": "This restaurant, located near Takaoka Station, is beloved as a popular public izakaya. With a favorite atmosphere and popularity requiring reservations, it is known for reasonably priced and delicious dishes such as mackerel sashimi and grilled chicken sashimi. With a bottle of shochu, you can be fully satisfied for 3,000 yen, and you can also enjoy sours and chu-hi. There seems to be no appetizer, but the dishes have a rich flavor, especially the seaweed and cucumber pickles are recommended. The service is good, and there are friendly and youthful staff. Even amid the pandemic, it's an izakaya with a charming atmosphere where you can enjoy safely.",
+    "kind": "Izakaya"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Masunosushi Minamoto",
+    "imageName": "masunosushi",
+    "description": "Masunosushi Minamoto is an example of a dining experience offered in Toyama City.\nAt this restaurant, you can enjoy delicious sushi that combines fresh ingredients and craftsmanship. It is beloved by local residents, providing an opportunity for visiting travelers to experience the local food culture.\n\nThe menu is diverse, allowing you to savor the fresh seafood of Toyama. Especially, there is a variety of non-sushi dishes using local ingredients. With a homely atmosphere, friendly staff welcomes you. Visit during lunch or dinner to enjoy a luxurious dining experience.",
+    "kind": "Sushi"
+  },
+  {
+    "name": "Nishimachi Daiki",
+    "imageName": "blackramen",
+    "description": "Established in 1947, Nishimachi Daiki is the birthplace of Toyama Black Ramen. This ramen features a rich soy-based broth and is topped with plenty of coarsely ground black pepper. If you want to try Toyama Black Ramen, Nishimachi Daiki is a recommended place where you can experience its unique taste.",
+    "kind": "Ramen"
+  },
+  {
+    "name": "Shiroebi Tei",
+    "imageName": "shiroebi",
+    "description": "In our store, there are two types of white shrimp sashimi: hand-peeled and machine-peeled. Machine peeling allows for cost-effective mass production, but it compromises the original sweetness and texture during processing. We deliver hand-peeled white shrimp from Toyama Bay in Shinminato every morning, allowing you to enjoy its refined sweetness and texture. To enhance the flavor of white shrimp, we use minimal coating and seasoning, and we also offer tendon using 100% Toyama-produced Koshihikari rice.",
+    "kind": "Tempura and Sashimi"
+  },
+  {
+    "name": "Oryouri Fujii",
+    "imageName": "oryourifujii",
+    "description": "Oryouri Fujii, a two-star Japanese restaurant filled with love for Toyama's abundant nature and ingredients, has moved to Iwase. Master Kanetoku Fujii loves his hometown Toyama and delicately prepares mountain and sea delicacies. Emphasizing local ingredients, the restaurant directly sources Toyama-produced ingredients, using 100% Toyama-produced items for sashimi in particular. The restaurant also focuses on the 'dashi,' using premium konbu from Rishiri, Hokkaido, and genuine katsuobushi from Makurazaki, Kagoshima. Oryouri Fujii provides luxurious cuisine while feeling the changing seasons in the quiet atmosphere of Iwase.",
+    "kind": "Izakaya"
+  },
+  {
+    "name": "Starbucks Kansui Park",
+    "imageName": "kansuisb",
+    "description": "The Kansui Park store features architecture that highlights the charm of waterside spaces and incorporates the history of the Kansui Canal and the nature of Toyama. The grassy areas and promenades in the park are perfect for family walks and strolls with your dog. From the simple design of the building, you can enjoy the symbol of the park, the 'Tenmon Bridge,' and beautiful views from any seat. Surrounded by waterside scenery and the sounds of nature, feel the changing seasons with coffee in hand.",
+    "kind": "Café"
+  },
+  {
+    "name": "Cheese LABO ESTA Toyama",
+    "imageName": "cheeselabo",
+    "description": "This izakaya, located on the fourth floor of Toyama Station ESTA, is completely private and felt like a hidden gem when visited with a reservation. The main offerings are meat and cheese dishes, including Wagyu and Himi beef, as well as a variety of local Toyama dishes. The ordering-to-serving time is quick, and the presentation of the dishes is clean and impressive. Cheese dishes are rich, making them recommended for visits with a large group. The meal ended with deep-fried white shrimp unique to Toyama and local sake, concluding with the luxurious Cheeselabo finale parfait.",
+    "kind": "Izakaya"
+  },
+  {
+    "name": "Café Thyme",
+    "imageName": "cafethyme",
+    "description": "This café provides a relaxing moment with delicious herbal tea and dishes in a refreshing space overlooking the newly renovated Boulevard Square and the new monument 'lovers.' The lunch menu includes pasta and curry, with a daily set that comes with soup, side dish, salad, and drink. Suitable for outings with friends or family, it's also ideal for work lunches. Enjoy monthly recommended sweets, and party plans for private reservations are available. It is recommended as a café where you can relax and refresh.",
+    "kind": "Café"
+  },
+  {
+    "name": "La BOMBANCE Kansui Park",
+    "imageName": "labombance",
+    "description": "La BOMBANCE aims to be a place where customers can share pleasant moments with loved ones and connect people through Toyama's beautiful ingredients and food culture. The fusion of La BOMBANCE and the water-rich nature of Toyama unfolds in 'a sunny place,' creating special encounters with Toyama. Enjoy a lovely time while overlooking the nature-rich Kansui Park.",
+    "kind": "Japanese and Creative Cuisine"
+  },
+  {
+    "name": "Itoshou",
+    "imageName": "itoshou",
+    "description": "Itoshou is loved by many customers as a specialty store for simmered udon. When you open the lid of the simmering earthenware pot, the enticing aroma of miso and garlic fills the air. We spare no effort in selecting and preparing ingredients, offering carefully crafted simmered udon that is served piping hot. We will continue to pursue 'deliciousness' and provide joy and happiness to many people.",
+    "kind": "Udon"
+  },
+  {
+    "name": "Sushitei",
+    "imageName": "sushiei",
+    "description": "The So曲輪 store has only 12 counter seats, and water flows in front of the seats, allowing you to enjoy sushi while washing your hands. A unique 'drinkable to the last leaf' health tea is offered with tea. Enjoy the harmony of delicious sushi and tea. Special lunch sets are also available during lunchtime. However, please note that the store is closed on Sundays and holidays.",
+    "kind": "Sushi"
+  }
+]
