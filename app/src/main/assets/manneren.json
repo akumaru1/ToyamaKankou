@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Dining Etiquette",
+    "imageName": "manner1",
+    "description": "Japanese dining manners and table etiquette guide.",
+    "kind": "Etiquette"
+  },
+  {
+    "name": "Free Services",
+    "imageName": "manner2", 
+    "description": "About complimentary services and water provided at Japanese restaurants.",
+    "kind": "Etiquette"
+  }
+]

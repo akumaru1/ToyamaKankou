@@ -1,0 +1,14 @@
+[
+  {
+    "name": "温泉マナー",
+    "imageName": "onsen1",
+    "description": "日本の温泉でのマナーとエチケットについての基本的なガイド。",
+    "kind": "マナー"
+  },
+  {
+    "name": "入浴の作法",
+    "imageName": "onsen2", 
+    "description": "温泉に入る前の準備と正しい入浴方法について。",
+    "kind": "マナー"
+  }
+]

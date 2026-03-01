@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">富山观光</string>
+    
+    <!-- Category Names -->
+    <string name="category_attractions">景点</string>
+    <string name="category_food">美食</string>
+    <string name="category_events">活动</string>
+    <string name="category_culture">文化</string>
+    <string name="category_manner">礼仪</string>
+    <string name="category_onsen">温泉</string>
+    <string name="category_transportation">交通</string>
+    
+    <!-- Region Names -->
+    <string name="region_himi">冰见,砺波地区</string>
+    <string name="region_toyama">富山市地区</string>
+    <string name="region_kurobe">黑部,立山地区</string>
+    
+    <!-- Legacy Layout Compatibility (Chinese) -->
+    <string name="himi_china">冰见,砺波地区</string>
+    <string name="kurobe_china">黑部,立山地区</string>
+    <string name="toyama_china">富山市内地区</string>
+    <string name="bt_himi_china">冰见,砺波地区</string>
+    <string name="bt_toyama_china">富山市地区</string>
+    <string name="bt_kurobe_kurobe">黑部,立山地区</string>
+    
+    <!-- UI Labels -->
+    <string name="click_the_button_below">点击下面的按钮</string>
+    <string name="select_language">选择语言</string>
+    <string name="japanese">日本語</string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    
+    <!-- Navigation -->
+    <string name="back">返回</string>
+    <string name="next">下一步</string>
+    <string name="select_region">选择地区</string>
+</resources>

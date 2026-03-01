@@ -1,0 +1,14 @@
+[
+  {
+    "name": "食事マナー",
+    "imageName": "manner1",
+    "description": "日本の食事マナーとテーブルエチケットについて。",
+    "kind": "マナー"
+  },
+  {
+    "name": "無料サービスについて",
+    "imageName": "manner2",
+    "description": "日本のレストランでの無料サービスやお水の提供について。",
+    "kind": "マナー"
+  }
+]

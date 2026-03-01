@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">富山観光</string>
+    
+    <!-- Category Names -->
+    <string name="category_attractions">観光地</string>
+    <string name="category_food">食事</string>
+    <string name="category_events">イベント</string>
+    <string name="category_culture">文化</string>
+    <string name="category_manner">マナー</string>
+    <string name="category_onsen">温泉</string>
+    <string name="category_transportation">交通</string>
+    
+    <!-- Region Names -->
+    <string name="region_himi">氷見・砺波方面</string>
+    <string name="region_toyama">富山市内方面</string>
+    <string name="region_kurobe">黒部・立山方面</string>
+    
+    <!-- Legacy Layout Compatibility (Japanese) -->
+    <string name="himi_jp">氷見・砺波方面</string>
+    <string name="kurobe_jp">黒部・立山方面</string>
+    <string name="toyama_jp">富山市方面</string>
+    <string name="bt_himi_jp">氷見・砺波方面</string>
+    <string name="bt_toyama_jp">富山市内方面</string>
+    <string name="bt_kurobe_jp">黒部・立山方面</string>
+    
+    <!-- UI Labels -->
+    <string name="click_the_button_below">下のボタンをクリック</string>
+    <string name="select_language">言語選択</string>
+    <string name="japanese">日本語</string>
+    <string name="english">English</string>
+    <string name="chinese">中文</string>
+    
+    <!-- Navigation -->
+    <string name="back">戻る</string>
+    <string name="next">次へ</string>
+    <string name="select_region">地域選択</string>
+</resources>

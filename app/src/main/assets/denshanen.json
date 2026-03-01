@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Train Etiquette",
+    "imageName": "train1",
+    "description": "Manners and etiquette on Japanese trains. Keep quiet and be considerate of other passengers.",
+    "kind": "Etiquette"
+  },
+  {
+    "name": "Priority Seats",
+    "imageName": "train2",
+    "description": "How to use priority seats and who should you offer your seat to.",
+    "kind": "Etiquette"
+  }
+]

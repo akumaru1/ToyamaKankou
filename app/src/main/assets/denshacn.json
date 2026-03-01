@@ -1,0 +1,14 @@
+[
+  {
+    "name": "电车礼仪",
+    "imageName": "train1",
+    "description": "日本电车内的礼仪和规矩。保持安静，体谅其他乘客。",
+    "kind": "礼仪"
+  },
+  {
+    "name": "优先座位",
+    "imageName": "train2",
+    "description": "如何使用优先座位以及应该给谁让座。",
+    "kind": "礼仪"
+  }
+]

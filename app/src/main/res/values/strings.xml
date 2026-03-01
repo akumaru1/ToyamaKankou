@@ -1,26 +1,53 @@
 <resources>
     <string name="app_name">Toyama Travel</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <!-- Category Names -->
+    <string name="category_attractions">Attractions</string>
+    <string name="category_food">Food</string>
+    <string name="category_events">Events</string>
+    <string name="category_culture">Culture</string>
+    <string name="category_manner">Etiquette</string>
+    <string name="category_onsen">Hot Springs</string>
+    <string name="category_transportation">Transportation</string>
+    
+    <!-- Region Names -->
+    <string name="region_himi">Himi, Tonami area</string>
+    <string name="region_toyama">Toyama city area</string>
+    <string name="region_kurobe">Kurobe, Tateyama area</string>
+    
+    <!-- Legacy Layout Compatibility (English) -->
     <string name="himi_eg">Himi,Tonami</string>
     <string name="kurobe_eg">Kurobe,Tateyama</string>
     <string name="toyama_en">Toyama city</string>
     <string name="bt_himi_en">Himi,Tonami area</string>
     <string name="bt_toyama_en">Toyama city area</string>
     <string name="bt_kurobe_en">Kurobe,Tateyama area</string>
+    
+    <!-- Legacy Layout Compatibility (Default for Japanese references) -->
+    <string name="himi_jp">Himi, Tonami area</string>
+    <string name="kurobe_jp">Kurobe, Tateyama area</string>
+    <string name="toyama_jp">Toyama city area</string>
+    <string name="bt_himi_jp">Himi, Tonami area</string>
+    <string name="bt_toyama_jp">Toyama city area</string>
+    <string name="bt_kurobe_jp">Kurobe, Tateyama area</string>
+    
+    <!-- Legacy Layout Compatibility (Default for Chinese references) -->
+    <string name="himi_china">Himi, Tonami area</string>
+    <string name="kurobe_china">Kurobe, Tateyama area</string>
+    <string name="toyama_china">Toyama city area</string>
+    <string name="bt_himi_china">Himi, Tonami area</string>
+    <string name="bt_toyama_china">Toyama city area</string>
+    <string name="bt_kurobe_kurobe">Kurobe, Tateyama area</string>
+    
+    <!-- UI Labels -->
     <string name="click_the_button_below">Click the button below</string>
-    <string name="himi_china">冰见,砺波地区</string>
-    <string name="kurobe_china">黑部,立山地区</string>
-    <string name="toyama_china">富山市内地区</string>
-    <string name="click_china">点击下面的按钮</string>
-    <string name="bt_himi_china">冰见,砺波地区</string>
-    <string name="bt_toyama_china">富山市地区</string>
-    <string name="bt_kurobe_kurobe">黑部,立山地区</string>
-    <string name="himi_jp">氷見・砺波方面</string>
-    <string name="kurobe_jp">黒部・立山方面</string>
-    <string name="toyama_jp">富山市方面</string>
-    <string name="click_jp">下のボタンをクリック</string>
-    <string name="bt_himi_jp">氷見・砺波方面</string>
-    <string name="bt_toyama_jp">富山市内方面</string>
-    <string name="bt_kurobe_jp">黒部・立山方面</string>
+    <string name="select_language">Select Language</string>
+    <string name="japanese">Japanese</string>
+    <string name="english">English</string>
+    <string name="chinese">Chinese</string>
+    
+    <!-- Navigation -->
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="select_region">Select Region</string>
 </resources>

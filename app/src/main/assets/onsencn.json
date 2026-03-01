@@ -1,0 +1,14 @@
+[
+  {
+    "name": "温泉礼仪",
+    "imageName": "onsen1",
+    "description": "日式温泉的礼仪和规矩基本指南。",
+    "kind": "礼仪"
+  },
+  {
+    "name": "入浴程序",
+    "imageName": "onsen2",
+    "description": "进入温泉前的准备和正确的入浴方法。",
+    "kind": "礼仪"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "用餐礼仪",
+    "imageName": "manner1",
+    "description": "日本的用餐礼仪和餐桌礼仪指南。",
+    "kind": "礼仪"
+  },
+  {
+    "name": "免费服务",
+    "imageName": "manner2",
+    "description": "关于日式餐厅提供的免费服务和水。",
+    "kind": "礼仪"
+  }
+]

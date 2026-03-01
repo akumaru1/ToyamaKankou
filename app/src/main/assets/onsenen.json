@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Onsen Etiquette",
+    "imageName": "onsen1",
+    "description": "Basic guide to manners and etiquette at Japanese hot springs.",
+    "kind": "Etiquette"
+  },
+  {
+    "name": "Bathing Procedure",
+    "imageName": "onsen2",
+    "description": "Preparation before entering onsen and proper bathing methods.",
+    "kind": "Etiquette"
+  }
+]

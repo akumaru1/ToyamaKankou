@@ -11,89 +11,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TravelApp"
         tools:targetApi="31">
+        <!-- New Unified Activities -->
         <activity
-            android:name=".Cn.FoodmanaCn"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".En.FoodmanaEn"
+            android:name=".ChooseActivity"
             android:exported="false" />
         <activity
-            android:name=".Cn.DenshaCn"
+            android:name=".ListActivity"
             android:exported="false" />
         <activity
-            android:name=".En.DenshaEn"
+            android:name=".MannerActivity"
             android:exported="false" />
         <activity
-            android:name=".Jp.FoodmanaJp"
+            android:name=".FoodmanaActivity"
             android:exported="false" />
         <activity
-            android:name=".Jp.DenshaJp"
+            android:name=".OnsenActivity"
             android:exported="false" />
         <activity
-            android:name=".Cn.BunkaCn"
+            android:name=".DenshaActivity"
             android:exported="false" />
-        <activity
-            android:name=".En.BunkaEn"
-            android:exported="false" />
-        <activity
-            android:name=".Jp.BunkaJp"
-            android:exported="false" />
-        <activity
-            android:name=".Cn.EventCn"
-            android:exported="false" />
-        <activity
-            android:name=".En.EventEn"
-            android:exported="false" />
+        
+        <!-- Existing Activities (Keep) -->
         <activity
             android:name=".DetailActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Jp.EventJp"
-            android:exported="false" />
-        <activity
-            android:name=".Cn.OnsenCn"
-            android:exported="false" />
-        <activity
-            android:name=".Cn.MannerCn"
-            android:exported="false" />
-        <activity
-            android:name=".En.OnsenEn"
-            android:exported="false" />
-        <activity
-            android:name=".En.MannerEn"
-            android:exported="false" />
-        <activity
-            android:name=".Jp.OnsenJp"
-            android:exported="false" />
-        <activity
-            android:name=".Jp.MannerJp"
-            android:exported="false" />
-        <activity
-            android:name=".Jp.MainActivityJp"
-            android:exported="false" />
-        <activity
-            android:name=".En.MainActivityEn"
-            android:exported="false" />
-        <activity
-            android:name=".Cn.MainActivityCn"
-            android:exported="false" />
-        <activity
-            android:name=".Jp.ChooseKankouchiJp"
-            android:exported="false" />
-        <activity
-            android:name=".En.ChooseKankouchiEn"
-            android:exported="false" />
-        <activity
-            android:name=".Cn.ChooseKankouchiCn"
-            android:exported="false" />
-        <activity
-            android:name=".Jp.ChooseShokujiJp"
-            android:exported="false" />
-        <activity
-            android:name=".En.ChooseShokujiEn"
-            android:exported="false" />
-        <activity
-            android:name=".Cn.ChooseShokujiCn"
             android:exported="false" />
         <activity
             android:name=".Shokuji"
