@@ -7,84 +7,42 @@ import com.example.travelapp.data.CategoryRepository
 import com.example.travelapp.util.LocalizationManager
 
 /**
- * Unified ListActivity that replaces all category-specific activities 
+ * Unified ListActivity that replaces all category-specific activities
  * (EventJp/En/Cn, BunkaJp/En/Cn, MannerJp/En/Cn, etc.).
- * Generic list activity that loads data based on category and region parameters.
+ * Data loading is fully delegated to [CategoryRepository]; this activity only
+ * handles navigation intent extras and fragment transactions.
  */
 class ListActivity : AppCompatActivity() {
 
-    private lateinit var categoryRepository: CategoryRepository
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(getLayoutForActivity())
+        setContentView(R.layout.activity_event_jp)
 
-        categoryRepository = CategoryRepository(this)
-        
         val categoryId = intent.getStringExtra("CATEGORY_ID")
         val region = intent.getStringExtra("REGION")
-        
+
         loadListFragment(categoryId, region)
     }
-    
-    private fun getLayoutForActivity(): Int {
-        // Use appropriate layout based on category or default
-        return R.layout.activity_event_jp // This layout should work for all list activities
-    }
-    
+
     private fun loadListFragment(categoryId: String?, region: String?) {
-        val jsonFileName = if (categoryId != null) {
-            if (region != null) {
-                // Build filename from category and region
-                categoryRepository.run {
-                    when (categoryId) {
-                        CategoryConstants.CATEGORY_ATTRACTIONS -> {
-                            when (region) {
-                                CategoryConstants.REGION_HIMI -> "kankou1${LocalizationManager.getCurrentLanguageSuffix()}.json"
-                                CategoryConstants.REGION_TOYAMA -> "kankou2${LocalizationManager.getCurrentLanguageSuffix()}.json"
-                                CategoryConstants.REGION_KUROBE -> "kankou3${LocalizationManager.getCurrentLanguageSuffix()}.json"
-                                else -> "kankou1${LocalizationManager.getCurrentLanguageSuffix()}.json"
-                            }
-                        }
-                        CategoryConstants.CATEGORY_FOOD -> {
-                            when (region) {
-                                CategoryConstants.REGION_HIMI -> "gurume1${LocalizationManager.getCurrentLanguageSuffix()}.json"
-                                CategoryConstants.REGION_TOYAMA -> "gurume2${LocalizationManager.getCurrentLanguageSuffix()}.json"
-                                CategoryConstants.REGION_KUROBE -> "gurume3${LocalizationManager.getCurrentLanguageSuffix()}.json"
-                                else -> "gurume1${LocalizationManager.getCurrentLanguageSuffix()}.json"
-                            }
-                        }
-                        else -> getJsonFileNameForCategory(categoryId)
-                    }
-                }
-            } else {
-                // Direct category without region
-                getJsonFileNameForCategory(categoryId)
-            }
-        } else {
-            // Fallback - use passed JSON_FILE_NAME or default
-            intent.getStringExtra("JSON_FILE_NAME") ?: "event${LocalizationManager.getCurrentLanguageSuffix()}.json"
+        // Resolve the JSON filename through CategoryRepository so the mapping
+        // logic lives in exactly one place.
+        val repository = CategoryRepository(this)
+        val jsonFileName: String = when {
+            categoryId != null && region != null ->
+                repository.getJsonFileName(categoryId, region)
+            categoryId != null ->
+                repository.getJsonFileName(categoryId, CategoryConstants.REGION_TOYAMA)
+            else ->
+                intent.getStringExtra("JSON_FILE_NAME")
+                    ?: LocalizationManager.getLocalizedJsonFileName("event")
         }
 
         val tag = "ListFragment"
-        var fragment = supportFragmentManager.findFragmentByTag(tag)
-        if (fragment == null) {
-            fragment = ListFragment.newInstance(jsonFileName)
-            supportFragmentManager.beginTransaction().apply {
-                replace(R.id.content, fragment, tag)
-            }.commit()
-        }
-    }
-    
-    private fun getJsonFileNameForCategory(categoryId: String): String {
-        val suffix = LocalizationManager.getCurrentLanguageSuffix()
-        return when (categoryId) {
-            CategoryConstants.CATEGORY_EVENTS -> "event$suffix.json"
-            CategoryConstants.CATEGORY_CULTURE -> "bunka$suffix.json"
-            CategoryConstants.CATEGORY_MANNER -> "manner$suffix.json"
-            CategoryConstants.CATEGORY_ONSEN -> "onsen$suffix.json"
-            CategoryConstants.CATEGORY_TRANSPORTATION -> "densha$suffix.json"
-            else -> "event$suffix.json"
+        if (supportFragmentManager.findFragmentByTag(tag) == null) {
+            supportFragmentManager.beginTransaction()
+                .replace(R.id.content, ListFragment.newInstance(jsonFileName), tag)
+                .commit()
         }
     }
 }

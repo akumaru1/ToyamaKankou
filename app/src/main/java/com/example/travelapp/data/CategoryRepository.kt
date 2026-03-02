@@ -47,7 +47,7 @@ class CategoryRepository(private val context: Context) {
     
     private fun loadSightsFromJson(jsonFileName: String): List<Sight> {
         return try {
-            val jsonString = context.assets.open("json/$jsonFileName").bufferedReader().use { it.readText() }
+            val jsonString = context.assets.open(jsonFileName).bufferedReader().use { it.readText() }
             Json.decodeFromString<List<Sight>>(jsonString)
         } catch (e: Exception) {
             // Log error but return empty list to prevent crashes
@@ -55,7 +55,13 @@ class CategoryRepository(private val context: Context) {
             emptyList()
         }
     }
-    
+
+    /**
+     * Build and return the JSON filename for the given category and region.
+     * Exposed publicly so callers can resolve the filename without loading data.
+     */
+    fun getJsonFileName(categoryId: String, region: String): String = buildJsonFileName(categoryId, region)
+
     private fun buildJsonFileName(categoryId: String, region: String): String {
         val languageSuffix = LocalizationManager.getCurrentLanguageSuffix()
         

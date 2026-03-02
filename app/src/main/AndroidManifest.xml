@@ -39,12 +39,6 @@
             android:name=".DetailActivity"
             android:exported="false" />
         <activity
-            android:name=".Shokuji"
-            android:exported="false" />
-        <activity
-            android:name=".Kankouchi"
-            android:exported="false" />
-        <activity
             android:name=".Language"
             android:exported="true">
             <intent-filter>

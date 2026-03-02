@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.travelapp.data.CategoryRepository
 import com.example.travelapp.databinding.FragmentListBinding
 
 class ListFragment : Fragment() {
@@ -20,9 +21,9 @@ class ListFragment : Fragment() {
 
         fun newInstance(jsonFileName: String): ListFragment {
             val fragment = ListFragment()
-            val bundle = Bundle()
-            bundle.putString(ARG_JSON_FILE_NAME, jsonFileName)
-            fragment.arguments = bundle
+            fragment.arguments = Bundle().apply {
+                putString(ARG_JSON_FILE_NAME, jsonFileName)
+            }
             return fragment
         }
     }
@@ -38,23 +39,25 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val jsonFileName = arguments?.getString("JSON_FILE_NAME") ?: "kankou1jp.json"
+        val jsonFileName = arguments?.getString(ARG_JSON_FILE_NAME) ?: "kankou1jp.json"
+
+        // Use CategoryRepository for centralized, cached data loading
+        val repository = CategoryRepository(requireContext())
+        val sights = repository.getSightsByFileName(jsonFileName)
+
         binding.root.apply {
             layoutManager = when {
-                resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT -> LinearLayoutManager(context)
+                resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT ->
+                    LinearLayoutManager(context)
                 else -> GridLayoutManager(context, 2)
             }
-            adapter = SightAdapter(context, getSights(resources, jsonFileName)).apply {
+            adapter = SightAdapter(context, sights).apply {
                 setOnItemClickListener { position: Int ->
                     fragmentManager?.let { manager: FragmentManager ->
                         val tag = "DetailFragment"
                         var fragment = manager.findFragmentByTag(tag)
                         if (fragment == null) {
-                            fragment = DetailFragment()
-                            fragment.arguments = Bundle().apply {
-                                putInt(ROW_POSITION, position)
-                                putString("JSON_FILE_NAME", jsonFileName) // Pass jsonFileName to DetailFragment
-                            }
+                            fragment = DetailFragment.newInstance(jsonFileName, position)
                             manager.beginTransaction().apply {
                                 replace(R.id.content, fragment, tag)
                                 addToBackStack(null)
@@ -64,5 +67,10 @@ class ListFragment : Fragment() {
                 }
             }
         }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

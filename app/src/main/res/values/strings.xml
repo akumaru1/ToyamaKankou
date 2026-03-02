@@ -46,6 +46,9 @@
     <string name="english">English</string>
     <string name="chinese">Chinese</string>
     
+    <!-- Accessibility -->
+    <string name="sight_content_description">%1$s, %2$s</string>
+
     <!-- Navigation -->
     <string name="back">Back</string>
     <string name="next">Next</string>
