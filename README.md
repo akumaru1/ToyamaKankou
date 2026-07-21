@@ -5,9 +5,9 @@ An Android application demonstrating localization, data-driven design patterns, 
 ---
 ## App Preview
 
-| Home Screen                                                                                              | Chat View                                                                                                | Media Gallery                                                                                            |
+| Home Screen                                                                                              | Travel View                                                                                                | Event Page                                                                                            |
 | :---------------------------------------------------------------------------------------------------------| :---------------------------------------------------------------------------------------------------------| :---------------------------------------------------------------------------------------------------------|
-| <img src="https://github.com/user-attachments/assets/6a92de4d-2c88-4911-8b4d-3166d3f02443" width="100%"> | <img src="https://github.com/user-attachments/assets/54702dae-5c44-4d65-acbc-75578709a830" width="100%"> | <img src="https://github.com/user-attachments/assets/50f9f91d-e4b0-4f14-ba0e-fa11b9789c19" width="100%"> |
+| <img src="https://github.com/user-attachments/assets/3f55e99a-9830-44ee-b324-f42f22793d04" width="100%"> | <img src="https://github.com/user-attachments/assets/a7e8ec84-c37d-43b1-a10c-56007b62e598" width="100%"> | <img src="https://github.com/user-attachments/assets/dfa7a6aa-abb7-4e88-9ebc-2c286768e7d4" width="100%"> |
 
 ---
 
