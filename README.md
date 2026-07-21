@@ -3,6 +3,12 @@
 An Android application demonstrating localization, data-driven design patterns, lifecycle-aware components and modern Android development best practices. The app serves as a comprehensive travel guide to Toyama Prefecture, Japan, offering tourist information across three languages: **English**, **Japanese**, and **Simplified Chinese**.
 
 ---
+## App Preview
+
+| :---------------------------------------------------------------------------------------------------------| :---------------------------------------------------------------------------------------------------------| :---------------------------------------------------------------------------------------------------------|
+| <img src="https://github.com/user-attachments/assets/6a92de4d-2c88-4911-8b4d-3166d3f02443" width="100%"> | <img src="https://github.com/user-attachments/assets/54702dae-5c44-4d65-acbc-75578709a830" width="100%"> | <img src="https://github.com/user-attachments/assets/50f9f91d-e4b0-4f14-ba0e-fa11b9789c19" width="100%"> |
+
+---
 
 ##  Core Features
 
